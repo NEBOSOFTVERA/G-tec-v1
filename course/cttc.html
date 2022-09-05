@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTTC course</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/allcourse.css">
+</head>
+<body>
+
+<h2 class="h22"><span><b>G</b>-<i>TEC</i></span></h2>
+  <!--------------------------------------how to add cource here testing------------------------------------------->
+<div class="right" style="background-color:#ddd;">
+  <h1> CTTC</h1>
+    <!-------------------------------------java se course------------------------------------------------------->
+    <div class="card">
+        <img src="../images/cttc.jfif" alt="CTTC images" style="width:100%">
+        <h1>CTTC</h1>
+        <p class="price">Fee ₹6300</p>
+        <p>Duration. 3 months</p>
+        <p>click more Details to viwe your certification and more</p>
+        <p><b>MODULE – 1 : (72 HOURS)</b></p>
+        <p> Computer Basics</p>
+        <p>  MS OFFICE & OPEN OFFICE</p>
+        <p><b> MODULE – 2 : (78 HOURS)</b></p>
+        <p> Programming Logic & Practices and Visual Basic</p>
+        <p><b>MODULE – 3 : (72 HOURS)</b></p>
+        <p>IT in Multimedia:</p>
+        <p> Adobe Phpotoshop</p>
+        <p> Adobe Animate</p>
+        <p><b>MODULE – 4 : (30 HOURS)</b></p>
+        <p>IT in Hardware:</p>
+        <p> Hardware and system maintenance essentials.</p>
+        <p><b>MODULE – 5 : (36 HOURS)</b></p>
+        <p>Student Psychology and Teaching Techniques</p>
+        <p> OJT</p>
+        <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">more Details</button></p>
+        <br>
+      </div>
+</div>
+
+<!-----------------------------login form test------------>
+<div id="id01" class="Lmodal">
+  
+  <form class="Lmodal-content animate" action="/action_page.php" method="post">
+    <div class="Limgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="Lclose" title="Close Modal">&times;</span>
+      <img src="../images/userp.png" alt="Avatar" class="Lavatar">
+    </div>
+
+    <div class="Lcontainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="Lcontainer" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="Lcancelbtn">Cancel</button>
+      <span class="Lpsw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!----------------------------------login test script-------------------------------------------------->
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+</body>
+</html>

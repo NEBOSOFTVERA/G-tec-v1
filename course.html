@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/course.css">
+<title>courses</title>
+
+</head>
+<body>
+
+<h2 class="h22"><span><b>G</b>-<i>TEC</i></span>  <a href="index.html">course details</a></h2>
+<!-------------------------------------------------------navi bar test---------------------------------------------------->
+<div class="cnavbar">
+  <a href="index.html">Home</a>
+  <a href="#news" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+  <div class="cdropdown">
+    <button class="cdropbtn">Courses 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="cdropdown-ccontent">
+      <a href="maincourse/software.html" for="soft" id="soft">Software</a>
+      <a href="maincourse/accounting.html">Accounting</a>
+      <a href="maincourse/multimed.html">Multimedia</a>
+      <a href="maincourse/fsh.html">fashon</a>
+      
+    </div>
+  </div> 
+
+  <!-------------------------------------------------------------------------------------------test exam dropdown-->
+
+
+  <div class="cdropdown">
+    <button class="cdropbtn">Exam 
+      <i class="fa fa-caret-down">
+        
+      </i>
+      
+    </button>
+    <div class="cdropdown-ccontent">
+            
+      <a href="exam/edifa.html">DIFA</a>
+      <a href="exam/edfa.html">DFA</a>
+      <a href="exam/etally.html">TALLY</a>
+      <a href="exam/egoperator.html">G operator</a>
+      <a href="properties/comingsoon.html">PCI</a>
+      <a href="properties/comingsoon.html">CTTC</a>
+      <a href="properties/comingsoon.html">PGDCA</a>
+      <a href="properties/comingsoon.html">DCA</a>
+      <a href="properties/comingsoon.html">JAVA SE</a>
+      <a href="properties/comingsoon.html">JAVA EI</a>
+      <a href="properties/comingsoon.html">PyB21</a>
+      <a href="exam/epsd.html">PSD</a>
+      <a href="properties/comingsoon.html">PGDIT</a>
+      <a href="properties/comingsoon.html">PHP21</a>
+      <a href="properties/comingsoon.html">DDE</a>
+      <a href="properties/comingsoon.html">G DEV</a>
+      <a href="properties/comingsoon.html">Adobe photoshop</a>
+      <a href="properties/comingsoon.html">DDI</a>
+      <a href="properties/comingsoon.html">DTP</a>
+      <a href="properties/comingsoon.html">DGD</a>
+      <a href="properties/comingsoon.html">Adobe premier</a>
+      <a href="properties/comingsoon.html">Adobe illustrator</a>
+      <a href="properties/comingsoon.html">DFD 21</a>
+    </div>
+  </div> 
+  <!-------------------------------------------------------------end exam part-------------------------->
+</div>
+<!-------------------------------------------login card  test------------------------------------------------------------------------>
+<div id="id01" class="Lmodal">
+  
+  <form class="Lmodal-content animate" action="/action_page.php" method="post">
+    <div class="Limgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="Lclose" title="Close Modal">&times;</span>
+      <img src="images/userp.png" alt="Avatar" class="Lavatar">
+    </div>
+
+    <div class="Lcontainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="Lcontainer" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="Lcancelbtn">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+<!----------------------------------------------------------------end login test------------------------------------------->
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <!--menu bar top heading <h2>Menu</h2>-->
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search Course.." title="Type in a category"><span></span>
+    <ul id="myMenu">
+      
+      <li><a href="course/difa.html">DIFA</a></li>
+      <li><a href="course/dfa.html">DFA</a></li>
+      <li><a href="course/tally.html">TALLY</a></li>
+      <li><a href="course/gop.html">G operator</a></li>
+      <li><a href="course/pci.html">PCI</a></li>
+      <li><a href="course/cttc.html">CTTC</a></li>
+      <li><a href="course/pgdca.html">PGDCA</a></li>
+      <li><a href="course/dca.html">DCA</a></li>
+      <li><a href="course/javase.html">JAVA SE</a></li>
+      <li><a href="course/javaei.html">JAVA EI</a></li>
+      <li><a href="course/python.html">PyB21</a></li>
+      <li><a href="course/psd.html">PSD</a></li>
+      <li><a href="course/pgdit.html">PGDIT</a></li>
+      <li><a href="course/php.html">PHP21</a></li>
+      <li><a href="course/dde.html">DDE</a></li>
+      <li><a href="course/jdev.html">G DEV</a></li>
+      <li><a href="course/ps.html">Adobe photoshop</a></li>
+      <li><a href="course/ddi.html">DDI</a></li>
+      <li><a href="course/dtp.html">DTP</a></li>
+      <li><a href="course/dgd.html">DGD</a></li>
+      <li><a href="course/apr.html">Adobe premier</a></li>
+      <li><a href="course/ai.html">Adobe illustrator</a></li>
+      <li><a href="course/dfd.html">DFD 21</a></li>
+    </ul>
+  </div>
+  <!--------------------------------------how to add cource here testing------------------------------------------->
+  <div class="right" style="background-color:#ddd;">
+    <h1>TOP THRE COURSES</h1>
+    <!-------------------------------------first course------------------------------------------------------->
+    <div class="card">
+      <img src="images/mso.jpg" alt="ms office" style="width:100%">
+      <h1>ms office</h1>
+      <p class="price">₹19.29</p>
+      <p>Word</p>
+      <p>Excel</p>
+      <p>Power point</p>
+      <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add to Cart</button></p>
+    </div>
+    <!-------------------------------------second course------------------------------------------------------->
+    <div class="card">
+      <img src="images/sf1.jfif" alt="software" style="width:100%" name="soft" id="soft">
+      <h1>software</h1>
+      <p class="price">₹13.99</p>
+      <p>Html</p>
+      <p>Css</p>
+      <p>Javascript</p>
+      <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add to Cart</button></p>
+    </div>
+    <!-------------------------------------therd course------------------------------------------------------->
+    <div class="card">
+      <img src="images/multim.webp" alt="Multimedia" style="width:100%">
+      <h1>Multimedia</h1>
+      <p class="price">₹09.99</p>
+      <p>Photoshop</p>
+      <p>Illustrator</p>
+      <p>Vfx</p>
+      <p><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add to Cart</button></p>
+      <!--test-->
+      
+    </div>
+  </div>
+
+
+  
+ 
+</div>
+
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+    
+  }
+  
+
+}
+
+</script>
+
+</body>
+</html>
